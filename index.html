@@ -1,22 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta> charset="UTF-8"
-        <meta> name="viewport" content="width=device-width, initial-scale=1.0</meta>
-        <title>TJWblog: Home</title>
-        <link rel="stylesheet" href="./assets/css/styles.css" />
-        <link rel="stylesheet" href="./assets/css/form.css" />
-    </head>
-    <body>
-        <header>
-            <h1>TJWblog</h1>
-        </header>
-        <main>
-            <p>form goes here</p>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>TJWblog: Home</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TJWblog</h1>
+    </header>
+    <main>
+      <form id="blogEntry">
+        <label for="userName">User Name</label>
+        <input type="text" id="userName" />
+        <label for="postTitle">Title</label>
+        <input type="text" id="postTitle" />
+        <label for="content">Content</label>
+        <textarea type="text" rows="4" id="content"></textarea>
+        <button type="submit" id="submitButton">Submit</button>
+      </form>
+    </main>
 
-        <footer>footer goes here</footer>
+    <footer>footer goes here</footer>
 
-        <script source="./assets/js/form.js" > </script>
-        <script source="./assets/js/logic.js" > </script>
-    </body>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </body>
 </html>

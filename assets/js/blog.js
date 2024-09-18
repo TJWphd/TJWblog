@@ -4,8 +4,6 @@
 
 const buttonEl = document.querySelector("#backButton");
 
-buttonEl.addEventListener("click", function() {
-    window.location = "./index.html"
-    
-}
-)
+buttonEl.addEventListener("click", function () {
+  window.location = "./index.html";
+});
