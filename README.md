@@ -20,4 +20,4 @@ Screenshots:
 ## credits
 
 John Young, Zac Warner, David Park:
-Educational team at Ed.X/UC Berkeley FS Bootcamp
+Educational team at edX/UC Berkeley FS Bootcamp
