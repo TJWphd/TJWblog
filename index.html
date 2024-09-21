@@ -13,25 +13,30 @@
     <header>
       <h1>TJWblog</h1>
       <span>
-        <button type="checkbox" id="darkMode">Dark Mode</button>
+        <button type="checkbox" id="darkMode">&#127769;</button>
       </span>
     </header>
-      <main>
-        <div id="left"> 
-          <a src="./assets/images/TJWblogPic.jpg" >
+    <main>
+      <div class="row">
+        <div class="column">
+          <img src="./assets/images/TJWblogPic.jpg" alt="cyber city sunset" />
         </div>
-        <div id="right">
-        <form id="blogEntry">
-          <label for="userName">User Name</label>
-          <input type="text" id="userName" />
-          <label for="postTitle">Title</label>
-          <input type="text" id="postTitle" />
-          <label for="content">Content</label>
-          <textarea type="text" rows="4" id="content"></textarea>
-          <button type="submit" id="submitButton">Submit</button>
-        </form>
+        <div class="column">
+          <form id="blogEntry">
+            <label for="userName">User Name</label>
+            <input type="text" id="userName" />
+            <label for="postTitle">Title</label>
+            <input type="text" id="postTitle" />
+            <label for="content">Content</label>
+            <textarea type="text" rows="4" id="content"></textarea>
+            <button type="submit" id="submitButton">Submit</button>
+          </form>
+        </div>
       </div>
-      </main>
+    </main>
+
+    <!-- JavaScript for this page and for logic -->
+
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>
   </body>

@@ -1,0 +1,33 @@
+body {
+}
+
+button {
+  background-color: rgb(179, 34, 189);
+  color: rgb(71, 37, 71);
+  font-size: 24px;
+}
+
+main {
+}
+
+.row {
+  /* display: block; */
+}
+
+.column {
+  /* display: block; */
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+label {
+  vertical-align: top;
+}
+
+input {
+  vertical-align: top;
+}

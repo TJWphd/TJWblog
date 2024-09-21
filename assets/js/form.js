@@ -21,6 +21,10 @@ formEl.addEventListener("submit", function (event) {
     postTitle: postTitle,
     content: content,
   };
+
+  // todo: WHEN I enter try to submit a form without a username, title, or content,
+  // THEN I am presented with a message that prompts me to complete the form.
+
   let blogArray = JSON.parse(localStorage.getItem("blogEntries"));
   if (!blogArray) {
     blogArray = [];
@@ -30,5 +34,5 @@ formEl.addEventListener("submit", function (event) {
   localStorage.setItem("blogEntries", JSON.stringify(blogArray));
 
   window.location.href = "./blog.html";
-  // get all three form entries, make them keys in an object, push that object to local storage
+  // todo: get all three form entries, make them keys in an object, push that object to local storage
 });

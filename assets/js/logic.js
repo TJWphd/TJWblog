@@ -1,4 +1,10 @@
 // listen for click on light/dark mode switch
 
-// buttonEl.addEventListener("click", function () {
-//     window.location = "./index.html";
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+// formEl.addEventListener("submit", function (event) {
+//     event.preventDefault();
+//     console.log("button clicked");

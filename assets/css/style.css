@@ -3,11 +3,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-body {
-  margin: 50px;
-  padding: 0;
-}
-
 header {
   display: flex;
   flex-wrap: wrap;
@@ -25,4 +20,17 @@ header span {
 
 header button {
   display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
