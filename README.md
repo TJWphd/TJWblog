@@ -10,8 +10,7 @@ Blog entry submission switches the page from form to blog, and a back button tak
 
 ## Installations
 
-Screenshot: selection screen ./assets/form.jpg
-Screenshot: reveal screen ./assets/blog.jpg
+Screenshots: ./assets/form.png, ./assets/blog.png
 Deployment link: https://tjwphd.github.io/TJWblog
 
 ## Credits
