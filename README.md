@@ -6,7 +6,7 @@ This is a personal blog with a landing page containing a form for the user to ma
 
 ## Features
 
-Blog entry submission switches the page from form to blog, and a back button takes the blogger back to the landing page. There is also a switch to toggle between dark and light modes. The footer contains a link to the developer's portfolio.
+Blog entry submit button switches the page from form to blog, and the back button takes the user back to the form page. There is a toggle switch for dark and light modes. The footer on the blog page contains a link to the developer's portfolio.
 
 ## Installations
 
@@ -15,10 +15,12 @@ Deployment link: https://tjwphd.github.io/TJWblog
 
 ## Credits
 
-John Young, Zac Warner, David Park:
+John Young, Zac Warner, David Park, John Murphy:
 Educational team at edX/UC Berkeley FS Bootcamp
 
-Naira Davtyan, Michael Pratt, Tina Rahimian, Nancy Touma:
+Sung Min An, Tala Awwad, Naira Davtyan, Michael Pratt, Tina Rahimian, Nancy Touma:
 Classmates at edX/UC Berkeley FS Bootcamp
+
+Kevin Powell: YouTuber. See (https://www.youtube.com/watch?v=wodWDIdV9BY) for how to make a light/dark mode toggle with CSS & JS
 
 w3 Schools

@@ -8,11 +8,11 @@ formEl.addEventListener("submit", function (event) {
   console.log("button clicked");
 
   const userName = document.getElementById("userName").value;
-  // console.log(userName);
+  console.log(userName);
   const postTitle = document.getElementById("postTitle").value;
-  // console.log(postTitle);
+  console.log(postTitle);
   const content = document.getElementById("content").value;
-  // console.log(content);
+  console.log(content);
 
   const blogEntry = {
     userName: userName,
