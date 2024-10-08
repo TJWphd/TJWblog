@@ -9,30 +9,40 @@
     <link rel="icon" href="./assets/images/faviconTJW.png" />
     <title>TJWblog: Blog</title>
   </head>
-
-  <!-- header on blog page is smaller than header on landing/home page -->
-
   <body>
-    <header>
-      <h2>TJWblog</h2>
-      <span>
-        <button type="checkbox" id="darkMode">Dark Mode</button>
-      </span>
-    </header>
-    <button id="back">Back</button>
-    <main>
-      <p>blog articles displayed here</p>
-    </main>
+    <!-- default state is dark -->
+    <div class="dark">
+      <!-- same header on both pages -->
+      <header>
+        <h1>TJWblog</h1>
+        <span>
+          <button
+            id="dark-mode-toggle"
+            class="dark-mode-toggle"
+            aria-label="toggle dark mode"
+          >
+            &#127769;
+          </button>
+        </span>
+      </header>
 
-    <!-- links in footer to my work and contact info -->
-
-    <footer>
-      <strong>made by TJW</strong>
-      <a href="https://tjwphd.github.io/portfolio/"><span>Portfolio</span></a>
-      <a href="https://tjwphd.github.io/TJWblog/"><span>Blog</span></a>
-      <a href="mailto:tjwhitephd@gmail.com">tjwhitephd@gmail.com</a>
-    </footer>
-
+      <main>
+        <p>blog articles displayed here</p>
+      </main>
+      <!-- back button returns user to homepage -->
+      <button id="back">Back</button>
+      <!-- links in footer to my work and contact info -->
+      <div class="footer">
+        <ul>
+          <strong>made by TJW</strong>
+          <a href="https://tjwphd.github.io/portfolio/"
+            ><span>Portfolio</span></a
+          >
+          <a href="https://tjwphd.github.io/TJWblog/"><span>Blog</span></a>
+          <a href="mailto:tjwhitephd@gmail.com">tjwhitephd@gmail.com</a>
+        </ul>
+      </div>
+    </div>
     <!-- JavaScript for this page and for logic -->
 
     <script src="./assets/js/blog.js"></script>
