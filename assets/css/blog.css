@@ -2,7 +2,6 @@
   align-items: flex-start;
 }
 .column {
-  /* display: block; */
   flex-wrap: wrap;
   flex-direction: column;
 }

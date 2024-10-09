@@ -1,6 +1,6 @@
 <html lang="en">
   <!-- head links to CSS style sheet and page-specific (Blog) CSS sheet -->
-
+  <!-- favicon matches my other projects, e.g. portfolio -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,38 +10,33 @@
     <title>TJWblog: Blog</title>
   </head>
   <body>
-    <!-- default state is dark -->
-    <div class="dark">
-      <!-- same header on both pages -->
-      <header>
-        <h1>TJWblog</h1>
-        <span>
-          <button
-            id="dark-mode-toggle"
-            class="dark-mode-toggle"
-            aria-label="toggle dark mode"
-          >
-            &#127769;
-          </button>
-        </span>
-      </header>
+    <!-- same header on both pages, unicode moon for dark mode -->
+    <header>
+      <h1>TJWblog</h1>
+      <span>
+        <button
+          id="dark-mode-toggle"
+          class="dark-mode-toggle"
+          aria-label="toggle dark mode"
+        >
+          &#127769;
+        </button>
+      </span>
+    </header>
 
-      <main>
-        <p>blog articles displayed here</p>
-      </main>
-      <!-- back button returns user to homepage -->
-      <button id="back">Back</button>
-      <!-- links in footer to my work and contact info -->
-      <div class="footer">
-        <ul>
-          <strong>made by TJW</strong>
-          <a href="https://tjwphd.github.io/portfolio/"
-            ><span>Portfolio</span></a
-          >
-          <a href="https://tjwphd.github.io/TJWblog/"><span>Blog</span></a>
-          <a href="mailto:tjwhitephd@gmail.com">tjwhitephd@gmail.com</a>
-        </ul>
-      </div>
+    <main id="blogPosts">
+      <p>blog posts displayed here</p>
+    </main>
+    <!-- back button returns user to homepage -->
+    <button id="back">Back</button>
+    <!-- links in footer to my work and contact info -->
+    <div class="footer">
+      <ul>
+        <strong>made by TJW</strong>
+        <a href="https://tjwphd.github.io/portfolio/"><span>Portfolio</span></a>
+        <a href="https://tjwphd.github.io/TJWblog/"><span>Blog</span></a>
+        <a href="mailto:tjwhitephd@gmail.com">tjwhitephd@gmail.com</a>
+      </ul>
     </div>
     <!-- JavaScript for this page and for logic -->
 

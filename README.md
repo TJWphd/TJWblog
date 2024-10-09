@@ -23,4 +23,6 @@ Classmates at edX/UC Berkeley FS Bootcamp
 
 Kevin Powell: YouTuber. See (https://www.youtube.com/watch?v=wodWDIdV9BY) for how to make a light/dark mode toggle with CSS & JS
 
-w3 Schools
+Amp-What: https://www.amp-what.com/unicode/search/ for unicode moon
+
+CSS-Tricks: https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/ favicons

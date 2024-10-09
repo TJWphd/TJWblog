@@ -10,40 +10,37 @@
     <title>TJWblog: Form</title>
   </head>
   <body>
-    <!-- default state is dark -->
-    <div class="dark">
-      <!-- same header on both pages -->
-      <header>
-        <h1>TJWblog</h1>
-        <span>
-          <button
-            id="dark-mode-toggle"
-            class="dark-mode-toggle"
-            aria-label="toggle dark mode"
-          >
-            &#127769;
-          </button>
-        </span>
-      </header>
-      <main>
-        <div class="row">
-          <div class="column">
-            <img src="./assets/images/TJWblogPic.jpg" alt="cyber city sunset" />
-          </div>
-          <div class="column">
-            <form id="blogEntry">
-              <label for="userName">User Name</label>
-              <input type="text" id="userName" />
-              <label for="postTitle">Title</label>
-              <input type="text" id="postTitle" />
-              <label for="content">Content</label>
-              <textarea type="text" rows="4" id="content"></textarea>
-              <button type="submit" id="submitButton">Submit</button>
-            </form>
-          </div>
+    <!-- same header on both pages, button uses unicode for moon icon instead of text -->
+    <header>
+      <h1>TJWblog</h1>
+      <span>
+        <button
+          id="dark-mode-toggle"
+          class="dark-mode-toggle"
+          aria-label="toggle dark mode"
+        >
+          &#127769;
+        </button>
+      </span>
+    </header>
+    <main>
+      <div class="row">
+        <div class="column">
+          <img src="./assets/images/TJWblogPic.jpg" alt="cyber city sunset" />
         </div>
-      </main>
-    </div>
+        <div class="column">
+          <form id="blogEntry">
+            <label for="userName">User Name</label>
+            <input type="text" id="userName" />
+            <label for="postTitle">Title</label>
+            <input type="text" id="postTitle" />
+            <label for="content">Content</label>
+            <textarea type="text" rows="4" id="content"></textarea>
+            <button type="submit" id="submitButton">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
     <!-- JavaScript for this page and for logic -->
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>

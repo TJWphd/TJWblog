@@ -2,26 +2,15 @@ body {
   margin: 0%;
 }
 
-main {
-}
-
-.row {
-}
-
-.column {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
 form {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  width: 40%;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1024px;
 }
 
 label {
