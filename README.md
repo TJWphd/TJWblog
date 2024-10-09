@@ -10,7 +10,10 @@ Blog entry submit button switches the page from form to blog, and the back butto
 
 ## Installations
 
-Screenshots: ./assets/form.png, ./assets/blog.png
+Screenshots:
+./assets/images/formScreenshot.png
+./assets/images/blogScreenshot.png
+./assets/images/nightModeScreenshot.png
 Deployment link: https://tjwphd.github.io/TJWblog
 
 ## Credits
